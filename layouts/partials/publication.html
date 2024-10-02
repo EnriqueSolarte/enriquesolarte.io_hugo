@@ -1,0 +1,31 @@
+{{ if .Site.Data.homepage.publication.enable }}
+<section id="publication" class="section-publication section section--border-bottom rad-animation-group">
+    <div class="container">   
+        <h2>{{ .Site.Data.homepage.publication.title }}</h2>
+            {{ $xp := (where .Site.RegularPages.ByDate.Reverse "Type" "publication") }}
+            {{ $totalCount := 10}}    
+            {{ $totalCount = len $xp }}
+            {{ range first $totalCount $xp }}
+                <div class="row">
+                <td width="33%" valign="top" align="center">
+                    {{ partial "img_publication.html" . }}
+                </td>
+                <div class="col-12 cold-md-12 col-sm-6 mt-5 mt-sm-0">
+                    {{if .Params.direct_link}}
+                        <a href="{{ .Params.link }}">
+                            <div class="experience__title">{{ .Params.title }}</div>
+                        </a>
+                    {{ else }}
+                        <a href="{{ .Site.BaseURL }}{{.Params.link}}">
+                            <div class="experience__title">{{ .Params.title }}</div>
+                        </a>
+                    {{end}}
+                    <div class="experience__authors">{{ .Params.authors }}</div>
+                    <div class="experience__venue">{{ .Params.venue }}</div>                
+                    <div class="experience"></div>
+                </div>
+                </div>
+            {{ end }}
+    </div>
+</section>
+{{ end }}
