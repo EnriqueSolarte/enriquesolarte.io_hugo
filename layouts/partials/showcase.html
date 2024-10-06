@@ -17,12 +17,8 @@
             {{ range .Site.Data.homepage.showcase.socialLinks }}
             <a href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}"><i class="icon-{{ .icon }}-line"></i></a>
             {{ end }}
+            | Gmail: <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=enrique.solarte.pardo@gmail.com" target="_blank"> enrique.solarte.pardo [at] gmail.com</a>.
         </div>
-        <!-- <a  -->
-          <!-- href="{{ .Site.Data.homepage.showcase.button.URL }}" class="btn btn-primary"> -->
-          <!-- <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i> -->
-          <!-- {{ .Site.Data.homepage.showcase.button.btnText }} -->
-        <!-- </a> -->
       </div>
 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image">
 
@@ -48,15 +44,6 @@
   </picture>
 
 </div>
-    <!-- </div>
-    <div class="row platform-links">
-      <div class="col-12">
-        {{ range .Site.Data.homepage.showcase.socialLinks }}
-        <a href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}"><i class="icon-{{ .icon }}-line"></i></a>
-        {{ end }}
-      </div>
-    </div>
-  </div> -->
   
 </section>
 {{ end }}

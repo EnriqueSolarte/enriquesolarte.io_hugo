@@ -18,10 +18,10 @@ showcase:
   imageMobile:
     x: "images/who-am-i/neurips.png"
 
-  # button:
-  #   icon: "icon-mail-fill"
-  #   btnText: "Contact"
-  #   URL: "https://www.adrianmoreno.info/"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=enrique.solarte.pardo@gmail.com"
 
   socialLinks:
     - icon: "linkedin"
@@ -37,6 +37,9 @@ showcase:
       URL: "https://scholar.google.com/citations?user=fDkn6ZoAAAAJ&hl=en"
 
     - icon: "facebook"
+      URL: "https://www.facebook.com/enrique.solarte"
+    
+    - icon: "mail"
       URL: "https://www.facebook.com/enrique.solarte"
 
     
@@ -69,13 +72,21 @@ education:
   enable: true
   title: "Education"
   items:
+    - university: "National Tsing Hua University"
+      year: "2019-present"
+      degree: "Ph.D. in Electrical and Electronic Engineering"
+      rank: "GPA: 3.1/4.0"
+
     - university: "National Taiwan University of Technology"
       year: "2017-2019"
       degree: "Master in Science, Electrical and Electronic Engineering"
+      rank: "GPA: 3.5/4.0"
 
-    - university: "Natinal Tsing Hua University"
-      year: "2019-present"
-      degree: "Ph.D. in Electrical and Electronic Engineering"
+    - university: "ESPE, The University of the Armed Forces"
+      year: "2008-2014"
+      degree: "Bachelor, Mechatronics Engineering"
+      rank: "Grade: 17/20"
+
 
 # experience
 publication:
