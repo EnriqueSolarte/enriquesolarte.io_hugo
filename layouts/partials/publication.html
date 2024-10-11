@@ -20,7 +20,7 @@
                             <div class="experience__title">{{ .Params.title }}</div>
                         </a>
                     {{end}}
-                    <div class="experience__authors">{{ .Params.authors }}</div>
+                    <div class="experience__authors">{{ .Params.authors | safeHTML }}</div>
                     <div class="experience__venue">{{ .Params.venue }}</div>                
                     <div class="experience"></div>
                 </div>
