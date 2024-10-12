@@ -1,6 +1,6 @@
 baseURL = "https://enriquesolarte.github.io"
 languageCode = "en-us"
-theme = "adritian-free-hugo-theme"
+theme = "my-site"
 
 # Plugins
 [params.plugins]
@@ -93,7 +93,7 @@ theme = "adritian-free-hugo-theme"
     text2 = "Solarte"
 
   [params.footer]
-      copyright = "© BolivarSolarte. Free Hugo theme by Adrián Moreno Peña."
+      copyright = "© BolivarSolarte. Adritian Hugo theme by Adrián Moreno Peña."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"

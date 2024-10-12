@@ -6,14 +6,20 @@
                 <h2>{{ .Site.Data.homepage.education.title }}</h2>
                 <div class="col pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.education.items }}
-                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
-                        <div class="edu">
-                            <div class="education__title">{{ .university }}</div>
-                            <div class="education__degree">
-                                {{ .degree }}
+                    <div class="row">
+                        <td width="33%"valign="top" align="justify">
+                            {{ $img := resources.Get .logo }}
+                            <img class="center" src="{{ $img.RelPermalink }}" width="120" height="100">
+                        </td>
+                        <div class="col-12 col-sm-6 mb-6 mb-sm-6">
+                            <div class="edu">
+                                <div class="education__title">{{ .university }}</div>
+                                <div class="education__degree">
+                                    {{ .degree }}
+                                </div>
+                                <div class="education__date">{{ .year }}</div>
+                                <div class="education__degree">{{ .rank }}</div>
                             </div>
-                            <div class="education__date">{{ .year }}</div>
-                            <div class="education__degree">{{ .rank }}</div>
                         </div>
                     </div>
                     <div class="experience"></div>

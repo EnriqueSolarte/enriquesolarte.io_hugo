@@ -76,16 +76,19 @@ education:
       year: "2019-present"
       degree: "Ph.D. in Electrical and Electronic Engineering"
       rank: "GPA: 3.1/4.0"
+      logo: "images/education/nthu.jpeg"
 
-    - university: "National Taiwan University of Technology"
+    - university: "National Taipei University of Technology"
       year: "2017-2019"
       degree: "Master in Science, Electrical and Electronic Engineering"
       rank: "GPA: 3.5/4.0"
+      logo: "images/education/ntut.jpeg"
 
-    - university: "ESPE, The University of the Armed Forces"
+    - university: "The University of the Armed Forces, ESPE"
       year: "2008-2014"
       degree: "Bachelor, Mechatronics Engineering"
       rank: "Grade: 17/20"
+      logo: "images/education/espe.jpeg"
 
 
 # experience
