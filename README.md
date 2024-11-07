@@ -1,5 +1,18 @@
 # enriquesolarte.io_hugo
 
+```
+hugo 
+
+cp -r public/* ../enriquesolarte.github.io/
+
+cd ../enriquesolarte.github.io/
+
+git add .
+git commit -m "update"
+
+git push origin master
+```
+
 # TODOs
 
 - [ ] Add projects list. similar to the publication 
