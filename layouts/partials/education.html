@@ -1,32 +1,28 @@
 {{ if .Site.Data.homepage.education.enable }}
-<section class="section section--border-bottom rad-animation-group">
+<section class="section rad-animation-group">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2>{{ .Site.Data.homepage.education.title }}</h2>
-                <div class="col pt-2 pt-md-4">
-                    {{ range .Site.Data.homepage.education.items }}
-                    <div class="row">
-                        <td width="33%"valign="top" align="justify">
-                            {{ $img := resources.Get .logo }}
-                            <img class="center" src="{{ $img.RelPermalink }}" width="120" height="100">
-                        </td>
-                        <div class="col-12 col-sm-6 mb-6 mb-sm-6">
-                            <div class="edu">
-                                <div class="education__title">{{ .university }}</div>
-                                <div class="education__degree">
-                                    {{ .degree }}
-                                </div>
-                                <div class="education__date">{{ .year }}</div>
-                                <div class="education__degree">{{ .rank }}</div>
+        <div class="col-12">
+            <h2 style="font-size: 2rem;">{{ .Site.Data.homepage.education.title }}</h2>
+                {{ range .Site.Data.homepage.education.items }}
+                <div class="row mt-5 mb-3">
+                    <td width="33%"valign="top" align="justify">
+                        {{ $img := resources.Get .logo }}
+                        <img class="center" src="{{ $img.RelPermalink }}" width="120" height="100">
+                    </td>
+                    <div class="col-12 col-sm-6 mb-6 mb-sm-6">
+                        <div class="edu">
+                            <div class="education__title">{{ .university }}</div>
+                            <div class="education__degree">
+                                {{ .degree }}
                             </div>
+                            <div class="education__date">{{ .year }}</div>
+                            <div class="education__degree">{{ .rank }}</div>
                         </div>
                     </div>
-                    <div class="experience"></div>
-                    {{ end }}
                 </div>
-            </div>
+                {{ end }}
         </div>
     </div>
 </section>
+
 {{ end }}

@@ -1,7 +1,8 @@
 {{ if .Site.Data.homepage.publication.enable }}
-<section id="publication" class="section-publication section section--border-bottom rad-animation-group">
-    <div class="container">   
-        <h2>{{ .Site.Data.homepage.publication.title }}</h2>
+<section id="publication" class="section rad-animation-group">
+    <div class="container"> 
+        <h2 style="font-size: 2rem;">{{ .Site.Data.homepage.publication.title }}</h2>
+        <div class="col pt-2 pt-md-4">
             {{ $xp := (where .Site.RegularPages.ByDate.Reverse "Type" "publication") }}
             {{ $totalCount := 10}}    
             {{ $totalCount = len $xp }}
@@ -13,11 +14,10 @@
                 <div class="col-12 cold-md-12 col-sm-6 mt-5 mt-sm-0">
                     {{if .Params.direct_link}}
                         <a href="{{ .Params.link }}">
-                            <div class="experience__title">{{ .Params.title }}</div>
-                        </a>
+                            <div class="experience__title" style="font-size: 1.2rem;">{{ .Params.title }}</div>                        </a>
                     {{ else }}
                         <a href="{{ .Site.BaseURL }}{{.Params.link}}">
-                            <div class="experience__title">{{ .Params.title }}</div>
+                            <div class="experience__title" style="font-size: 1.2rem;">{{ .Params.title }}</div>                        </a>
                         </a>
                     {{end}}
                     <div class="experience__authors">{{ .Params.authors | safeHTML }}</div>
@@ -26,6 +26,7 @@
                 </div>
                 </div>
             {{ end }}
+        </div>
     </div>
 </section>
 {{ end }}

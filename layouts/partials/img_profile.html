@@ -1,0 +1,13 @@
+{{ $img := resources.Get .Site.Data.homepage.showcase.image.x}}
+<img class="project d-block mx-auto mb-3" src="{{ $img.RelPermalink }}" width="300"/>
+
+<div class="text-center">
+    {{ range .Site.Data.homepage.showcase.socialLinks }}
+      <a href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}">
+        <i class="icon-{{ .icon }}-line"></i>
+      </a>
+    {{ end }}
+    <div class="text-center">
+    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=enrique.solarte.pardo@gmail.com" target="_blank"> enrique.solarte.pardo [at] gmail.com</a>.
+    </div>
+</div>
