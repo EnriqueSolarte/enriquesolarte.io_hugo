@@ -7,4 +7,17 @@ venue: "<b>ECCV 2024</b>"
 image: "images/publications/2024_ray_casting_mlc.jpeg"
 link: "ray-casting-mlc/"
 direct_link: false
+list_Links:
+    - icon: "icons/website.svg"
+      label: "Project Page"
+      URL: "https://enriquesolarte.github.io/ray-casting-mlc/"
+
+    - icon: "icons/paper.svg"
+      label: "ArXiv"
+      URL: "https://arxiv.org/abs/2407.15041"
+
+    - icon: "icons/github.svg"
+      label: "Code"
+      URL: "https://github.com/EnriqueSolarte/ray_casting_mlc"
+
 ---

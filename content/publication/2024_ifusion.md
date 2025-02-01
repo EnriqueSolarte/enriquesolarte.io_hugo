@@ -7,4 +7,17 @@ venue: "<b>3DV 2024</b>"
 image: "images/publications/2024_ifusion.jpeg"
 link: "https://chinhsuanwu.github.io/ifusion/"
 direct_link: true
+list_Links:
+    - icon: "icons/website.svg"
+      label: "Project Page"
+      URL: "https://chinhsuanwu.github.io/ifusion/"
+
+    - icon: "icons/paper.svg"
+      label: "ArXiv"
+      URL: "https://arxiv.org/abs/2312.17250"
+
+    - icon: "icons/github.svg"
+      label: "Code"
+      URL: "https://github.com/chinhsuanwu/ifusion"
+
 ---

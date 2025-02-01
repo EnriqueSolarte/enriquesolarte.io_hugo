@@ -3,9 +3,17 @@
 
 <div class="text-center">
     {{ range .Site.Data.homepage.showcase.socialLinks }}
-      <a href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}">
-        <i class="icon-{{ .icon }}-line"></i>
-      </a>
+    {{ if eq .icon "icons/gscholar.svg" }}
+        <!-- Custom handling for gscholar icon -->
+        <a href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}">
+          <img src={{ .icon }} | relURL }} alt="{{ .icon }}" width="24" height="24">
+        </a>
+      {{ else }}
+        <!-- Default handling for other icons -->
+        <a href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}">
+          <i class="icon-{{ .icon }}-line"></i>
+        </a>
+      {{ end }}
     {{ end }}
     <div class="text-center">
     <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=enrique.solarte.pardo@gmail.com" target="_blank"> enrique.solarte.pardo [at] gmail.com</a>.

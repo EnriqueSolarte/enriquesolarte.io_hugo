@@ -7,4 +7,8 @@ venue: "<b>WACV 2024</b>"
 image: "images/publications/2024_ulayout.png"
 link: ""
 direct_link: true
+list_Links:
+   - icon: "icons/soon.svg"
+     label: "coming soon..."
+     URL: "https://enriquesolarte.github.io/"
 ---
