@@ -1,6 +1,6 @@
 # page title
 head:
-  title: "Enrique Solarte site"
+  title: "Solarte, Ph.D. | Ai / ML Researcher"
   description: "This hugo theme (Adritian) for buidling Enrique's website."
 # showcase
 showcase:
@@ -126,7 +126,11 @@ education:
 publication:
   enable: true
   title: "Publications"
-  
+
+# projects:
+#   enable: true
+#   title: "Projects"
+
 
 # Client & Work - false
 client_and_work:

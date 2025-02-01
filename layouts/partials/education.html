@@ -5,7 +5,7 @@
             <h2 style="font-size: 2rem;">{{ .Site.Data.homepage.education.title }}</h2>
                 {{ range .Site.Data.homepage.education.items }}
                 <div class="row mt-5 mb-3">
-                    <td width="33%"valign="top" align="justify">
+                    <td width="50%"valign="top">
                         {{ $img := resources.Get .logo }}
                         <img class="center" src="{{ $img.RelPermalink }}" width="120" height="100">
                     </td>
