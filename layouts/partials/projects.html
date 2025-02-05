@@ -1,0 +1,43 @@
+{{ if .Site.Data.homepage.projects.enable }}
+<section id="projects" class="section rad-animation-group">
+    <div class="container"> 
+        <h2 style="font-size: 2rem;">{{ .Site.Data.homepage.projects.title }}</h2>
+        <div class="col pt-2 pt-md-4">
+            {{ $xp := (where .Site.RegularPages.ByDate.Reverse "Type" "projects") }}
+            {{ $totalCount := 10}}    
+            {{ $totalCount = len $xp }}
+            {{ range first $totalCount $xp }}
+                <div class="row">
+                <td width="50%" valign="top">
+                    {{ partial "img_projects.html" . }}
+                </td>
+                <div class="col-12 d-block mx-auto cold-md-12 col-sm-6 mt-5 mt-sm-0" style="margin-bottom: 3rem;">
+                
+                    <div class="experience__title" style="font-size: 1.2rem;">{{ .Params.title }}</div>                        
+                
+                    <div class="experience__company">{{ .Params.company | safeHTML }}
+                        <span>   
+                            - {{ .Params.duration | safeHTML  }}
+                        </span>
+                    </div>
+
+                    <!-- <div class="experience__date">{{ .Params.duration | safeHTML  }}</div> -->
+
+                    <div class="experience__description" style="text-align: justify;">
+                        {{ .Params.description | safeHTML }}
+                    </div>
+
+                    {{ range .Params.list_Links }}
+                    <a href="{{ .URL | absURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .icon }}">
+                        <img src={{ .icon }} | relURL }} alt="{{ .icon }}" width="24" height="24">
+                        <span>[{{ .label }}]</span>
+                    </a>
+                    {{ end }}
+
+                </div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

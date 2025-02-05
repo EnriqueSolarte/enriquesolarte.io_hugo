@@ -20,18 +20,19 @@ showcase:
     Originally from Ecuador 🇪🇨, I moved to Taiwan in 2017 to pursue my studies and career.
     I received my M.S. degree in Electrical and Electronic Engineering in 2019 under the supervision of 
     <a target='_blank' href='https://imt.ntut.edu.tw/p/405-1065-87834,c382.php?Lang=en'>Prof. Syh-Shiuh Yeh</a> 
-    at National Taipei University of Technology. 
-    My research focused on estimating cutting insert parameters for CNC machines using Genetic Algorithms and Artificial Neural Networks.
+    at National Taipei University of Technology, where my research aimed at 
+    estimating cutting insert parameters for CNC machines using Genetic Algorithms and Artificial Neural Networks.
     </p>
     <p class="lead">
     In 2024, I received my Ph.D. degree from National Tsing Hua University under the supervision of
     <a target='_blank' href='https://aliensunmin.github.io/'>Prof. Sun Min</a>, in collaboration with 
     <a target='_blank' href='https://walonchiu.github.io/'>Prof. Wei-Chen Chiu</a> and
-    <a target='_blank' href='https://sites.google.com/site/yihsuantsai/'>Dr. Yi-Hsuan Tsai</a>.
-    My research focused on geometric perception, particularly self-training solutions using 360° cameras and multi-view consistency.    </p> 
+    <a target='_blank' href='https://sites.google.com/site/yihsuantsai/'>Dr. Yi-Hsuan Tsai</a>, where 
+    my research focused on geometric perception, particularly self-training solutions using 360° cameras 
+    and multi-view consistency.
     </p>
     <p class="lead">
-    In general, my research interests lie in geoemtry perception and robotics. 
+    In general, my research interests lie in geometry perception and robotics. 
     More specifically, I am fascinated by cognitive perception and scene understanding, 
     from the perspectives of neuroscience and robotics.
     Eager to learn, I am always open to new ideas and collaborations!
@@ -120,9 +121,9 @@ publication:
   enable: true
   title: "Publications"
 
-# projects:
-#   enable: true
-#   title: "Projects"
+projects:
+  enable: true
+  title: "Projects"
 
 
 # Client & Work - false

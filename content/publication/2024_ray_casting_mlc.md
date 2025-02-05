@@ -20,4 +20,7 @@ list_Links:
       label: "Code"
       URL: "https://github.com/EnriqueSolarte/ray_casting_mlc"
 
+    - icon: "icons/dataset.svg"
+      label: "Dataset"
+      URL: "https://huggingface.co/datasets/EnriqueSolarte/mvl_datasets"
 ---
