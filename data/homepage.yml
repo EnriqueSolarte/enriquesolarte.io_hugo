@@ -37,6 +37,7 @@ showcase:
     from the perspectives of neuroscience and robotics.
     Eager to learn, I am always open to new ideas and collaborations!
     </p>
+    📄 <a target='_blank' href='https://drive.google.com/open?id=1q0atntNcB38seKXwGFs3D_7zJ4NB_Pd8&usp=drive_fs'>CV (updated until April, 2025)</a>
 
   image:
     # x: "images/showcase/me_arrange.png"
@@ -62,6 +63,9 @@ showcase:
 
     - icon: "dribbble"
       URL: "https://scholar.google.com/citations?user=fDkn6ZoAAAAJ&hl=en"
+    
+    - icon: "codepen"
+      URL: "https://drive.google.com/open?id=1q0atntNcB38seKXwGFs3D_7zJ4NB_Pd8&usp=drive_fs"
     
 # about
 about:
