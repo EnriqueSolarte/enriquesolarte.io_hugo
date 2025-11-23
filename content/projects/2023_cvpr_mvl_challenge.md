@@ -4,7 +4,7 @@ draft: false
 title: "MVL Challenge: Multi-View Layout Estimation"
 duration: "<i>CVPR 2023</i>"
 company: "Workshop on Omnidirectional Computer Vision"
-description: "This was the first challenge on self-training multi-view layout estimation, where the goal was to explore solutions that rely solely on multi-view information to estimate scene layouts (without human annotations). The challenge was part of the Workshop on Omnidirectional Computer Vision, held in CVPR 2023."
+description: "This was the first challenge on self-training multi-view layout estimation, where the goal was to explore solutions that rely solely on multi-view information to estimate scene layouts without human annotations. The challenge was part of the Workshop on Omnidirectional Computer Vision, held in CVPR 2023."
 image: "images/projects/mvl-challenge.001.png"
 list_Links:
     - icon: "icons/website.svg"

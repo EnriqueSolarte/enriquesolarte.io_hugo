@@ -4,7 +4,7 @@ draft: false
 title: "iClerk: Using LLM for product dispatching"
 duration: "<i>2024</i>"
 company: "ITRI - Industrial Technology Research Institute"
-description: "In this project, we developed a clerk robot system that utilizes VLM and LLM models to understand natural language instructions and autonomously dispatch products. The system can recognize implicit information, interpret contextual requirements, and seamlessly add new products without constraints. It was implemented in Python and ROS1 and was presented at TAIROS 2024 in Taipei, Taiwan."
+description: "In this project, we developed a clerk robot system that utilizes LVLM and LLM models to understand natural language instructions and autonomously dispatch products. The system can recognize implicit information, interpret contextual requirements, and seamlessly add new products without constraints (no predefined labels, bar codes, or QR codes). It was implemented in Python and ROS. The prototype was presented at TAIROS 2024 in Taipei, Taiwan."
 image: "images/projects/iclerk.01.jpg"  
 list_Links:
     - icon: "icons/newspaper.svg"
